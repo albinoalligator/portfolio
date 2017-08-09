@@ -1,64 +1,4 @@
-body {
-    font-size: 14px;
-        position: relative;
-        color: black;
-        background-color: white;
-        height: 100%;
-    -webkit-font-smoothing: antialiased;
-}
-
-p {
-    font-size: 16px;
-    line-height: 1.8em;
-}
-
-/*/// HEADER ///*/
-.intro {
-    background-color: #0e0b16;
-    padding-top: 11.4%;
-    width: 100%;
-}
-
-
-
-.intro hr{
-    background-color: white;
-}
-
-/*/// TEXT STYLING ///*/
-
-.switch {
-    text-align: center;
-}
-
-.sub-jewel {
-    font-family: 'Roboto Mono', monospace;
-    color: #4717f6;
-}
-
-.sub-fuschia {
-    font-family: 'Roboto Mono', monospace;
-    color: #a239ca;
-}
-
-
-
-
-.marker-logo {
-    font-family: 'Roboto Mono', monospace;
-    color: #e7dfdd;
-    font-size: 2.5em;
-    text-align: center;
-    margin: 0;
-    position: relative;
-    z-index: 1;
-    cursor: default;
-}
-
-
-
 /*/// NAV ///*/
-
 
 #stickynav {
     display: block;
@@ -70,11 +10,13 @@ p {
 #stickynav #nav {position: fixed; z-index: 9999; }
 #stickynav #nav li {display: inline;}
 #stickynav #nav li a {
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Julius Sans One', sans-serif;
     float: right;
     margin-right: 8px;
-    color: #e7dfdd;
+    color: black;
     font-size: 1.2em;
+    padding-bottom: 30px;
+    
     padding: 5px 7px;
     background: none;
     -webkit-border-radius: 4px;
@@ -86,3 +28,88 @@ p {
     text-decoration: none;
     background: none;
 }
+
+
+
+body {
+    font-size: 14px;
+        position: relative;
+        color: black;
+        background-color: white;
+        height: 100%;
+    -webkit-font-smoothing: antialiased;
+}
+
+
+/*/// ABOUT ///*/
+.intro {
+    background-color: white;
+    padding-top: 5px;
+    height: 950px;
+    width: 100%;
+}
+
+#header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    font-family: 'Julius Sans One', sans-serif;
+    letter-spacing: 0.2em;
+    text-align: center;
+    width: 100%;
+    font-size: 30px;
+    background-color: gainsboro;
+    
+    
+}
+
+#opening {
+    font-family: 'Julius Sans One', sans-serif;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 5em;
+}
+
+
+#about {
+    background-color: white;
+    height: 1020px;
+}
+
+#inner-container {
+    padding: 50px;
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+#about p {
+    font-family: 'Julius Sans One', sans-serif;
+    text-align: center;
+    font-size: 23px;
+    color: black;
+}
+
+#code {
+    border-radius: 5px;
+    width: 750px;
+    margin: 0 auto;
+    padding-top: 15px;
+    background: #ccc;
+    height: 700px;
+    font-family: 'Roboto Mono', monospace;
+    text-align: left;
+    font-size: 13px;
+    color: #fafafa;   
+}
+
+#console {
+    width: 670px;
+    padding: 40px;
+    height: 620px;
+    margin: 0 auto;
+    background: #383737;
+}
+
+
+
+
+
